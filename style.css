@@ -14,7 +14,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .container h1 {
@@ -27,13 +26,14 @@
   width: 80%;
   text-align: center;
   margin-top: 50px;
-  /* padding: 20px 30px; */
   border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(31, 91, 95);
 }
 
 .joke-container h3 {
   margin-top: 20px;
   font-size: 25px;
+  letter-spacing: 2px;
   text-transform: capitalize;
 }
 
@@ -42,10 +42,12 @@
   padding: 15px;
   line-height: 1.8em;
   font-size: 18px;
+  letter-spacing: 1.2px;
 }
 
 .joke-container button {
   background-color: white;
+  box-shadow: 1px 1px 7px rgb(234, 235, 242);
   color: black;
   padding: 10px 20px;
   font-size: 18px;
@@ -53,6 +55,10 @@
   border-radius: 7px;
   border: none;
   cursor: pointer;
+}
+
+.joke-container button:hover {
+  background-color: rgb(234, 235, 242);
 }
 
 .joke-container button:active {
